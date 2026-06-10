@@ -1,0 +1,52 @@
+:root {
+    /* Paleta de colores 1 */
+
+    --ebony: #515a47ff;
+    --soft-fawn: #d7be82ff;
+    --saddle-brown: #7a4419ff;
+    --olive-bark: #755c1bff;
+    --rich-mahogany: #400406ff;
+    /* CSS HSL */
+    --ebony: hsla(88, 12%, 32%, 1);
+    --soft-fawn: hsla(42, 52%, 68%, 1);
+    --saddle-brown: hsla(27, 66%, 29%, 1);
+    --olive-bark: hsla(43, 63%, 28%, 1);
+    --rich-mahogany: hsla(358, 88%, 13%, 1);
+
+    /* Paleta de colores 2 */
+
+    /* CSS HEX */
+    --pitch-black: #141204ff;
+    --dark-khaki: #262a10ff;
+    --dark-khaki-2: #54442bff;
+    --cinnamon-wood: #a9714bff;
+    --toasted-almond: #e8985eff;
+
+    /* CSS HSL */
+    --pitch-black: hsla(53, 67%, 5%, 1);
+    --dark-khaki: hsla(69, 45%, 11%, 1);
+    --dark-khaki-2: hsla(37, 32%, 25%, 1);
+    --cinnamon-wood: hsla(24, 39%, 48%, 1);
+    --toasted-almond: hsla(25, 75%, 64%, 1);
+
+
+    /* Paleta de colores 3 */
+    /* CSS HEX */
+    --pitch-black: #231c07ff;
+    --dark-coffee: #392a16ff;
+    --mauve-bark: #634133ff;
+    --cinnamon-wood: #b86f52ff;
+    --coral-glow: #f78764ff;
+
+    /* CSS HSL */
+    --pitch-black: hsla(45, 67%, 8%, 1);
+    --dark-coffee: hsla(34, 44%, 15%, 1);
+    --mauve-bark: hsla(17, 32%, 29%, 1);
+    --cinnamon-wood: hsla(17, 42%, 52%, 1);
+    --coral-glow: hsla(14, 90%, 68%, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

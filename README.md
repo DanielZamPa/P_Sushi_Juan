@@ -1,5 +1,4 @@
-# Desarrollo de proyecto final materia ingeniería de software en la universidad minuto de Dios
-#Estudio #Universidad #Tarea #Informacion 
+# Desarrollo de proyecto para restaurante de Sushi
 
 Autor: Daniel Zamora Páez
 Año: 2026

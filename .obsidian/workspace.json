@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "f02ab133c024d5c9",
+    "type": "split",
+    "children": [
+      {
+        "id": "1439c578f44d9f08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77f7e0e5c6049c06",
+            "type": "leaf",
+            "state": {
+              "type": "diagram-edit",
+              "state": {
+                "file": "src/functions/shop_cart/Untitled Diagram.svg"
+              },
+              "icon": "lucide-file",
+              "title": "Untitled Diagram.svg"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c452b81f25116be0",
+    "type": "split",
+    "children": [
+      {
+        "id": "8240cccd219bac9a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "035b23ba22d4d4fc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "fffed7b53fa7945a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "e05485f5102f6b49",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a01d5360ab827751",
+    "type": "split",
+    "children": [
+      {
+        "id": "100fbdc9dc9de798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "10761eab6dde7b75",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "src/functions/shop_cart/Untitled Diagram.svg",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Untitled Diagram"
+            }
+          },
+          {
+            "id": "493b213391ec0942",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "src/functions/shop_cart/Untitled Diagram.svg",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Untitled Diagram"
+            }
+          },
+          {
+            "id": "46db6f8289fb66ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "3b19dff24845f2fd",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "741dde9e56e56381",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/functions/shop_cart/Untitled Diagram.svg",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Untitled Diagram"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "77f7e0e5c6049c06",
+  "lastOpenFiles": [
+    "src/assets/img/favicon/favicon-32x32.png",
+    "src/assets/img/favicon/favicon-16x16.png",
+    "src/assets/img/favicon/favicon.ico",
+    "src/assets/img/favicon/apple-touch-icon.png",
+    "src/assets/img/favicon/android-chrome-512x512.png",
+    "src/assets/img/logoRestaurante.jpeg",
+    "src/functions/shop_cart/Diagramas de Clases.md",
+    "src/functions/shop_cart/Untitled Diagram.svg",
+    "src/components/Sin título.md"
+  ]
+}

@@ -13,10 +13,10 @@
             "state": {
               "type": "diagram-edit",
               "state": {
-                "file": "src/functions/shop_cart/Untitled Diagram.svg"
+                "file": "src/functions/shop_cart/D_Clases.svg"
               },
               "icon": "lucide-file",
-              "title": "Untitled Diagram.svg"
+              "title": "D_Clases.svg"
             }
           }
         ]
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "src/functions/shop_cart/Untitled Diagram.svg",
+                "file": "src/functions/shop_cart/D_Clases.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Untitled Diagram"
+              "title": "Enlaces entrantes de D_Clases"
             }
           },
           {
@@ -111,12 +111,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "src/functions/shop_cart/Untitled Diagram.svg",
+                "file": "src/functions/shop_cart/D_Clases.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de Untitled Diagram"
+              "title": "Enlaces salientes de D_Clases"
             }
           },
           {
@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/functions/shop_cart/Untitled Diagram.svg",
+                "file": "src/functions/shop_cart/D_Clases.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de Untitled Diagram"
+              "title": "Esquema de D_Clases"
             }
           }
         ]
@@ -181,7 +181,7 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "77f7e0e5c6049c06",
+  "active": "035b23ba22d4d4fc",
   "lastOpenFiles": [
     "src/assets/img/favicon/favicon-32x32.png",
     "src/assets/img/favicon/favicon-16x16.png",
@@ -190,7 +190,7 @@
     "src/assets/img/favicon/android-chrome-512x512.png",
     "src/assets/img/logoRestaurante.jpeg",
     "src/functions/shop_cart/Diagramas de Clases.md",
-    "src/functions/shop_cart/Untitled Diagram.svg",
+    "src/functions/shop_cart/D_Clases.svg",
     "src/components/Sin título.md"
   ]
 }

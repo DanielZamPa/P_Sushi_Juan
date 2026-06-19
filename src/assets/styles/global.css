@@ -68,32 +68,3 @@ p {
     font-weight: 300;
     font-style: normal;
 }
-
-/* Efecto hover de oscurecer */
-.carousel-item img {
-    transition: transform 0.5s ease, filter 0.5s ease;
-}
-
-.carousel-item:hover img {    
-    filter: brightness(60%);
-    /* Oscurecer */
-}
-
-/* Texto superpuesto al hacer hover */
-.hover-text {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: rgba(0, 0, 0, 0);
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    opacity: 0;
-    transition: opacity 0.5s ease;    
-}
-
-.carousel-item:hover .hover-text {
-    opacity: 1;
-    visibility: visible;
-}

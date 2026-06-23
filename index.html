@@ -52,7 +52,8 @@
                         </ul>
                     </li>
                 </ul>
-                <button type="button" class="btn position-relative me-2 mt-1" id="cartButtom">
+                <button type="button" class="btn position-relative me-2 mt-1" id="cartButtom" data-bs-toggle="modal"
+                    data-bs-target="#modalCarrito">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-cart"
                         viewBox="0 0 16 16">
                         <path
@@ -63,9 +64,6 @@
                         99+
                         <span class="visually-hidden">shop card</span>
                     </span>
-                </button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Launch demo modal
                 </button>
             </div>
         </div>
@@ -239,24 +237,49 @@
         <!-- Estructuras modal -->
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="modalCarritoLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <h1 class="modal-title fs-5" id="modalCarritoLabel">Carrito de Compras</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body">
-                        ...
+                    <div class="container p-2 h-25 overflow-hidden">
+                        <div class="card mb-3" id="informacionChef">
+                            <div class="row g-0">
+                                <div class="col-md-3">
+                                    <img src="./src/assets/img/mixed-sushi-rolls-plate.jpg"
+                                        class="img-fluid rounded-start w-100 object-fit-cover h-100" alt="fotoDelChef">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Juan David Diaz Lara</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a
+                                            natural
+                                            lead-in to
+                                            additional content. This content is a little bit longer.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mt-auto mb-auto">
+                                    <div class="container d-flex">
+                                        <input type="number" name="" id="" class="card border-2 p-2 w-50"
+                                            placeholder="1">
+                                        <button class="btn btn-close mx-2 mt-auto mb-auto"></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                    <div class="modal-body overflow-hidden">
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Pagar</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </main>
     <hr>
     <footer class="bg-light" id="footer">

@@ -1,3 +1,5 @@
+import { producto } from "./claseProducto";
+
 document.addEventListener("DOMContentLoaded",
     document.addEventListener("click",
         function agregarCarrito(obj) {

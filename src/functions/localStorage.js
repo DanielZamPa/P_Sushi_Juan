@@ -1,13 +1,19 @@
-function agregarLocalStorage(){
+const productos = productosSushi;
+
+function agregarLocalStorage(key, value) {
     localStorage.setItem(key, value)
 }
 
-function obtenerLocalStorage(){}
-
-function convertirObjetoCadenaTexto(obj){
-    localStorage.setItem('user', JSON.stringify(userObj))
+function obtenerLocalStorage(key, index) {
+    convertirCadenaTextoObjeto(textObj);
 }
 
-function convertirCadenaTextoObjeto(){
-    const userData = JSON.parse(storedUserData)
+function convertirObjetoCadenaTexto(Object) {
+    localStorage.setItem('user', JSON.stringify(Object));
 }
+
+function convertirCadenaTextoObjeto(textObj) {
+    const userData = JSON.parse(datosProductoAlmacenado);
+}
+
+export { agregarLocalStorage, obtenerLocalStorage, convertirCadenaTextoObjeto, convertirObjetoCadenaTexto };

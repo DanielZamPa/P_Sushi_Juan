@@ -69,7 +69,12 @@ p {
     font-style: normal;
 }
 
-.tooltip-inner {
-    background-color: var(--rich-mahogany);
-    color: var(--soft-fawn);
+.custom-tooltip {
+    --bs-tooltip-bg: var(--rich-mahogany);
+    --bs-tooltip-color: var(--soft-fawn);
+    --bs-tooltip-padding-x: 1rem;
+    --bs-tooltip-padding-y: .65rem;
+    --bs-tooltip-border-radius: .75rem;
+    --bs-tooltip-opacity: 1;
+    --bs-tooltip-font-size: .95rem;
 }

@@ -1,0 +1,44 @@
+<div class="modal-header">
+    <h1 class="modal-title fs-5" id="modalCarritoLabel">Carrito de Compras</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+<!-- Tarjeta de producto -->
+<div class="container p-2 h-25 overflow-hidden">
+    <div class="card mb-3" id="informacionChef">
+        <div class="row g-0">
+            <div class="col-md-3">
+                <img src="./src/assets/img/fotoJuan.jpg" class="img-fluid rounded-start w-100 object-fit-cover h-100"
+                    alt="fotoDelChef">
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <h5 class="card-title">Juan David Diaz Lara</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a
+                        natural
+                        lead-in to
+                        additional content. This content is a little bit longer.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 mt-auto mb-auto">
+                <div class="container d-flex">
+                    <input type="number" name="" id="" class="card border-2 p-2 w-50" placeholder="1">
+
+                    <!--Tooltip boton eliminar del carrito-->
+                    <button class="btn btn-close mx-2 mt-auto mb-auto" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip"
+                        data-bs-title="Tooltip personalizado con variables CSS de Bootstrap 5."></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- Fin tarjeta producto -->
+
+<!-- Controles de modal -->
+<div class="modal-body overflow-hidden">
+    <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Pagar</button>
+    </div>
+</div>

@@ -18,7 +18,7 @@
     <title>ZENKO</title>
 </head>
 
-<body class="bg-light">
+<body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
@@ -123,94 +123,47 @@
                 </button>
             </div>
         </section>
-        <section id="información">
+        <section id="información" class="fondoPatron p-5">
+            <div id="fondoMensajePatron" class="p-5 rounded-2">
+                <h1>ZENKO</h1>
+                <p>
+                    <strong>Bienvenido a ZENKO</strong>, un espacio donde la tradición japonesa se encuentra con
+                    la creatividad culinaria para ofrecer una experiencia gastronómica única. Cada uno de nuestros
+                    platos es
+                    preparado al momento con ingredientes frescos y cuidadosamente seleccionados, garantizando sabores
+                    auténticos y una presentación impecable.
+                    <br><br>
+                    En nuestro menú encontrarás una amplia variedad de sushi, sashimi, nigiris, rolls especiales,
+                    entradas,
+                    arroces y bebidas, pensados para satisfacer tanto a quienes disfrutan de los clásicos de la cocina
+                    japonesa como a quienes buscan nuevas combinaciones de sabores. Nuestro compromiso es brindar
+                    productos
+                    de la más alta calidad, elaborados con dedicación por chefs apasionados por la gastronomía oriental.
+                    <br><br>
+                    Ya sea que nos visites para una comida en familia, una cena especial con amigos o simplemente para
+                    disfrutar de un buen sushi, queremos que cada visita se convierta en una experiencia memorable. Te
+                    invitamos a descubrir el equilibrio perfecto entre frescura, sabor y excelencia en un ambiente
+                    acogedor
+                    donde cada detalle está pensado para hacerte sentir como en casa. ¡Déjate sorprender por el
+                    auténtico
+                    sabor del sushi! 🍣
 
-        </section>
-        <section id="menuProductos">
-            <!-- Catalogo de Producto -->
-            <div class="container m-5" id="menu">
-                <h2 class="card-title mb-3">Nuestros productos</h2>
-                <div class="row">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="./src/assets/img/mixed-sushi-rolls-plate.jpg" alt="imagen de producto"
-                                class="w-auto h-50 img-fluid object-fit-cover rounded-1 card-img-top">
-                            <div class="card-body">
-                                <h5 class="card-title">Haganezuka roll</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk
-                                    of the
-                                    card’s content.
-                                </p>
-                                <!-- boton de whatsapp -->
-                                <a href="https://api.whatsapp.com/send?phone=573115502030&text=Hola,%20¿qué%20tal%20estás?"
-                                    target="_blank" class="btn btn-success">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                        class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                        <path
-                                            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                                    </svg>
-                                </a>
-                                <!-- boton de agregar al carrito -->
-                                <button type="button" class="btn position-relative" id="agregarCartButtomProducto1">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white"
-                                        class="bi bi-cart" viewBox="0 0 16 16">
-                                        <path
-                                            d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
-                                    </svg>
-                                    <span
-                                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill visually-hidden"
-                                        id="badgeShopCart">
-                                        99+
-                                        <span class="visually-hidden">shop card</span>
-                                    </span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Otras tarjetas de productos -->
-                    <!-- <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./src/assets/img/mixed-sushi-rolls-plate.jpg" alt="imgen de producto"
-                            class="w-auto h-50 img-fluid object-fit-cover rounded-1 card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card’s content.</p>
-                            <a href="#" class="btn btn-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                    <path
-                                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./src/assets/img/mixed-sushi-rolls-plate.jpg" alt="imgen de producto"
-                            class="w-auto h-50 img-fluid object-fit-cover rounded-1 card-img-top">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the
-                                card’s content.</p>
-                            <a href="#" class="btn btn-primary">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-whatsapp" viewBox="0 0 16 16">
-                                    <path
-                                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div> -->
-                </div>
+                </p>
             </div>
         </section>
+        <section id="menuProductos" class="mt-5">
+            <!-- Catalogo de Producto -->
+            <div class="container" id="menu">
+                <h2 class="card-title mb-3">Nuestros productos</h2>                      
+            </div> <!--Fin contendor de productos-->
+        </section> <!--Fin de seccion del catalogo de productos-->
+
+        <!--Seccion de categorias de productos-->
+        <section id="categorias" class="bg-dark">
+
+        </section>
+
+        <!--Seccion presentacion del personal del restaurante con logors e historial laboral-->
         <section id="presentacionPersonal">
             <!-- Información del chef -->
             <div class="container-fluid p-5 h-25">
@@ -271,7 +224,7 @@
                                         <!--Tooltip boton eliminar del carrito-->
                                         <button class="btn btn-close mx-2 mt-auto mb-auto" data-bs-toggle="tooltip"
                                             data-bs-placement="top" data-bs-custom-class="custom-tooltip"
-                                            data-bs-title="Tooltip personalizado con variables CSS de Bootstrap 5."></button>
+                                            data-bs-title="Eliminar del carrito"></button>
                                     </div>
                                 </div>
                             </div>
@@ -289,7 +242,7 @@
             </div>
         </div> <!-- Fin de estructura modal -->
     </main>
-    <hr>
+    <hr> <!--Inicio de footer de la pagina-->
     <footer class="bg-light" id="footer">
         <div class="container">
             <div class="row">
@@ -365,15 +318,16 @@
         </div>
     </footer>
 
-    <!-- Bootstrap JS Bundle local (incluye Popper) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <!-- <script src="./src/functions/shop_cart/metodosCarrito.js"></script> -->
-    <script>
-        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
-        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
-    </script>
 </body>
+<!-- Bootstrap JS Bundle local (incluye Popper) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<!-- <script src="./src/functions/shop_cart/metodosCarrito.js"></script> -->
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+<script type="module" src="./src/functions/menu/menu.js"></script>
 
 </html>

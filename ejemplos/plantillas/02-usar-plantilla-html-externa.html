@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Usar una plantilla HTML externa</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 32px;
+        color: #1f2933;
+      }
+
+      .producto {
+        max-width: 520px;
+        border: 1px solid #cbd5e1;
+        border-radius: 8px;
+        padding: 14px;
+      }
+
+      .producto h2 {
+        margin: 0 0 6px;
+        font-size: 18px;
+      }
+
+      .producto p {
+        margin: 0 0 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Plantilla guardada en otro archivo HTML</h1>
+    <main id="contenedor-producto"></main>
+
+    <script>
+      const producto = {
+        nombre: "Combo maki",
+        descripcion: "10 piezas de maki, bebida y salsa de la casa.",
+        precio: "$35.000",
+      };
+
+      async function cargarPlantilla() {
+        const respuesta = await fetch("./02-plantilla-producto.html");
+        const html = await respuesta.text();
+        const documento = new DOMParser().parseFromString(html, "text/html");
+        const template = documento.querySelector("#plantilla-producto-externa");
+        const fragmento = template.content.cloneNode(true);
+
+        fragmento.querySelector(".producto__nombre").textContent = producto.nombre;
+        fragmento.querySelector(".producto__descripcion").textContent = producto.descripcion;
+        fragmento.querySelector(".producto__precio").textContent = producto.precio;
+
+        document.querySelector("#contenedor-producto").appendChild(fragmento);
+      }
+
+      cargarPlantilla();
+    </script>
+  </body>
+</html>

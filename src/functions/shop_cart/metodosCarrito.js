@@ -1,5 +1,5 @@
-import { producto } from "./claseProducto";
-
+import { producto } from "../claseProducto";
+const carrito = ["../../components/productosTarjetaCarrito.html"]
 // const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
 // const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
 
